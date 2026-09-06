@@ -1,0 +1,2 @@
+clang filename.c -lcs50 -o filename
+./filename
