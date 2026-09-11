@@ -1,0 +1,67 @@
+C FORMAT SPECIFIERS
+===================
+
+%d    int
+%i    int
+
+%u    unsigned int
+
+%f    float
+%lf   double
+
+%c    char
+
+%s    string
+
+%p    pointer / memory address
+
+%x    hexadecimal
+%X    hexadecimal (uppercase)
+
+%o    octal
+
+%%    percent sign
+
+
+EXAMPLES
+===================
+
+int x = 10;
+printf("%d", x);
+
+float x = 3.14;
+printf("%f", x);
+
+double x = 3.14159;
+printf("%lf", x);
+
+char x = 'A';
+printf("%c", x);
+
+char x[] = "Gelan";
+printf("%s", x);
+
+int *x;
+printf("%p", x);
+
+
+DECIMAL PRECISION
+===================
+
+%.2f     3.14
+%.1f     3.1
+%.0f     3
+
+%5d      minimum width of 5
+%05d     pad with 0
+
+
+SCANF
+===================
+
+%d       int
+%u       unsigned int
+%f       float
+%lf      double
+%c       char
+%s       string
